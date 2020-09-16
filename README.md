@@ -1,7 +1,8 @@
 # Real-Estate-Prices-in-King-County
 
 This document will cover an extensive exploratory data analysis using the King County Real Estate dataset. 
-The analysis addresses 3 major goals: 
+
+## 1. Goal of the analysis: 
 
 **Goal 1**:
 Find the most interesting house offers for an imaginary client, a wealthy business man, in search for a spacius place to host ravish uptown parties. Since money is not a constraint, he has his eyes only on the most exclusive properties in the Seattle area. The client has a particular appetite for modern buildings and a waterfront view is a must. There is should be no less than 2 bedrooms and 2 bathrooms. The living_sqm space is to be maximized and more important than purchase price.
@@ -14,7 +15,7 @@ Optimize the model accuracy to minimize the RMSE
 
 Throughout the analysis, I will closely follow the typical data science lifecycle and cover all areas from data mining, to data cleaning, feature engineering, modelling up to the visualization. 
 
-**1.  Data Mining:**
+## 2.  Data Mining:**
 
 Now that the targets are defined, I will begin by loading the data and taking an initial look at the respective features
 
@@ -42,4 +43,6 @@ Now that the targets are defined, I will begin by loading the data and taking an
   * sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
   
   Loading the data and using the `info.()` command yields the following overview. 
-  ![](/Users/tobiasseidel/Projects/First_Project/2020-ds-Project-EDA/Bildschirmfoto 2020-09-17 um 00.36.11.png)
+  ![alt text](/Users/tobiasseidel/Projects/First_Project/2020-ds-Project-EDA/Bildschirmfoto 2020-09-17 um 00.36.11.png)
+  
+  
