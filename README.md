@@ -34,9 +34,12 @@ Now that the targets are defined, I will begin by loading the data and taking an
   * sqft_above - square footage of house apart from basement
   * sqft_basement - square footage of the basement
   * yr_built - Built Year
-yr_renovated - Year when house was renovated
-zipcode - zip
-lat - Latitude coordinate
-long - Longitude coordinate
-sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
-sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
+  * yr_renovated - Year when house was renovated
+  * zipcode - zip
+  * lat - Latitude coordinate
+  * long - Longitude coordinate
+  * sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
+  * sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
+  
+  Loading the data and using the `info.()` command yields the following overview. 
+  ![](/Users/tobiasseidel/Projects/First_Project/2020-ds-Project-EDA/Bildschirmfoto 2020-09-17 um 00.36.11.png)
