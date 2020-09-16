@@ -61,4 +61,16 @@ In this section, I first replace all missing values either through median calcul
 Now for the fun part! As they say, real estate prices are about location, location, location! So it is time to make something useful out of the latitude and longitude data as well as the zip codes.
 I will begin this chapter looking at where King County is and plotting the lat and long data on a graph and continue be using the `reverse_geocode`libary to create a new column with city names. Using this feature, I am able to provide interesting recommendations to the imaginary client as of goal1. 
 
-![image](Boxplot.png)
+![image]('Boxplot.png')
+
+**Recommendations:**
+* *Maximizing space for price:*
+    * The homes in Burien have both the lowest price per living and lot square meter while offerings the largest lot size under satisfaction of all other criteria
+
+* Total exclusivity:*
+    * Mercer Island and the Sammamish region are a level above all other regions both in absolute prices as well as prices per square meter
+
+*Finding the best of both worlds:*
+    * Get more for your money in Byrn Mawr-Skyway which offers better prices for large homes with decent lot sizes in the city center
+    
+    
