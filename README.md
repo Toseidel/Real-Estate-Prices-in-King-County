@@ -1,6 +1,11 @@
 # Real-Estate-Prices-in-King-County
 
 This document will cover an extensive exploratory data analysis using the King County Real Estate dataset. 
+The main objective of the exercise was to preprocess the data to create an accuracte (multiple) linear regression model. 
+I placed major emphasis on the feature engineering aspect, where I used the latitude and longitude coordinates to create neighborhood classifications to improve the model. The result of thise reverse geoengineering was two-fold: 
+
+1. Adding the city feature significantly improved the accuracy of the regression model 
+2. It brings the data alive as city district names are much more relatable than zipcodes
 
 ## 1. Goal of the analysis: 
 
@@ -46,3 +51,14 @@ Now that the targets are defined, I will begin by loading the data and taking an
   ![alt text](/Users/tobiasseidel/Projects/First_Project/2020-ds-Project-EDA/Bildschirmfoto 2020-09-17 um 00.36.11.png)
   
   
+  
+## 3. Data Cleaning 
+
+In this section, I first replace all missing values either through median calculations or 0s. Next, I convert incorreclty classified data types and categorize the features. Lastly, I will determine and remove major outliers.
+
+## 4. Feature Engineering
+
+Now for the fun part! As they say, real estate prices are about location, location, location! So it is time to make something useful out of the latitude and longitude data as well as the zip codes.
+I will begin this chapter looking at where King County is and plotting the lat and long data on a graph and continue be using the `reverse_geocode`libary to create a new column with city names. Using this feature, I am able to provide interesting recommendations to the imaginary client as of goal1. 
+
+![image](Boxplot.png)
