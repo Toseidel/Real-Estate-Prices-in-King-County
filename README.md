@@ -67,10 +67,44 @@ I will begin this chapter looking at where King County is and plotting the lat a
 * *Maximizing space for price:*
     * The homes in Burien have both the lowest price per living and lot square meter while offerings the largest lot size under satisfaction of all other criteria
 
-* Total exclusivity:*
+* *Total exclusivity:*
     * Mercer Island and the Sammamish region are a level above all other regions both in absolute prices as well as prices per square meter
 
-*Finding the best of both worlds:*
+* *Finding the best of both worlds:*
     * Get more for your money in Byrn Mawr-Skyway which offers better prices for large homes with decent lot sizes in the city center
     
-    
+## 5. Model Prediction
+
+As mentioned, the focus of this section is to set up a simple linear regression and then gradually add complexity.
+For the multiple regression model, based on the previous analysis I have selected the following features:
+  
+  **Categorical**
+   1. city # added feature
+   
+  **Numeric**
+   1. basement_sqm # less correlated with the other numerical features
+   2. grade 
+   3. waterfront
+   4. view 
+   5. floors
+   6. bedrooms
+   7. bathrooms
+   8. renovated
+   
+  **Omitted**
+   1. above_sqm 
+   2. living15_sqm
+   3. yr_built
+   4. zipcode 
+   5. lat
+   6. long
+   7. zipcode 
+   8. condition # high correlation to other features
+   
+## 6. Conclusion and Visualization of Results
+
+Using the geographical feature 'city' the model achieved an r-square of 0.79. 
+While this could certainly be improved, it offers a solid starting point for the road ahead. 
+
+![residual plot]("/Users/tobiasseidel/Projects/First_Project/2020-ds-Project-EDA/Residual Plot.png")
+
