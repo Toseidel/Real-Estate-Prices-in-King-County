@@ -106,5 +106,5 @@ For the multiple regression model, based on the previous analysis I have selecte
 Using the geographical feature 'city' the model achieved an r-square of 0.79. 
 While this could certainly be improved, it offers a solid starting point for the road ahead. 
 
-![residual plot]("/Users/tobiasseidel/Projects/First_Project/2020-ds-Project-EDA/Residual Plot.png")
+![residual plot](/Users/tobiasseidel/Projects/First_Project/2020-ds-Project-EDA/Residual Plot.png)
 
